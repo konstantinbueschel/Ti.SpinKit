@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APPID=de.appwerft.spinkit
-VERSION=1.0.8
+VERSION=2.0.0
 
 #cp android/assets/* iphone/
 cd android;ant ;  unzip -uo  dist/$APPID-android-$VERSION.zip  -d  ~/Library/Application\ Support/Titanium/;cd ..
